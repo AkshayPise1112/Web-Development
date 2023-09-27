@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: auto;
+}
+
+.navbar{
+    min-height: 70px;
+    background-image: linear-gradient(to left top, #fffdfb, #feeddc, #fdddbd, #face9f, #f6be82);
+}
+
+#navlist{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 1.2vw;
+}
+
+.name{
+    font-size: 2.3rem;
+}
+
+.name p span{
+    font-weight: bolder;
+    color: red;
+}
+
+#navlist div{
+    display: flex;
+    gap: 4vw;
+}
+
+#navlist a{
+    text-decoration: none;
+    color: red;
+}
+
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+    min-height: 40px;
+    background-image: linear-gradient(to left top, #fffdfb, #feeddc, #fdddbd, #face9f, #f6be82);
+    padding: 1vw;
+
+}
+
+.footerlinks{
+    display: flex;
+    gap: 3.5vw;
+}
+
+.footerlinks a{
+    color: black;
+}
+
+.mainContent{
+    width: 80%;
+    margin: auto;
+    background-image: linear-gradient(to left bottom, #ffffff, #ffedff, #ffd7dc, #ffcf98, #eedb5e);
+    box-shadow: 0vw 0vw 20vw #fd6a6a;
+    border-radius: 2.5vw;
+}
+
+.mensContent{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    align-items: center;
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55vw;
+}
+
+#shirtName{
+    font-size: 2.7vw;
+    color: #ff3c00;
+}
+
+button{
+    height: 7vh;
+    width: 17vw;
+    background-color: #ff8560;
+    border-radius: 1vw;
+    transition: 1s;
+    font-size: 1vw;
+    color: white;
+}
+
+button:hover{
+    background-color: white;
+}
+
+button:hover{
+   color: #ff8560; 
+}
+
+.leftbox ul li{
+    font-size: 1.5vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+#price{
+    font-size: 2.5vw;
+    color: #ff3737;
+}
+
+img{
+    height: 50vh;
+    border-radius: 10%;
+    border: 0.2vw solid #fd9f9f;
+    box-shadow: 0vw 0vw 15vw #f78888;
+}
+
+h1{
+    font-size: 3.5vw;
+    padding: 2vw 2vw 0vw 2vw;
+}
+
+.para p span{
+    font-weight: bold;
+}
+
+.mens h1, .womens h1{
+    color: chocolate;
+}
+
