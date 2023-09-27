@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1534px;
+    height: 738px;
+    background-color: beige;
+    border: 2px solid black;
+    display: flex;
+}
+
+.box1{
+    width: 302.5px;
+    height: 45px;
+    background-color: #f54f4f;
+    position: relative;
+    border: 2px solid #514848;
+    top: 5px;
+    left: 10px;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: upperbox;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+}
+
+@keyframes upperbox {
+    from{
+        top: 5px;
+        left: 10px;
+    }
+    to{
+        top: 5px;
+        left: 1215px;
+    }
+}
+
+.box2{
+    width: 302.5px;
+    height: 45px;
+    background-color: #f54f4f;
+    position: absolute;
+    border: 2px solid #514848;
+    top: 688px;
+    left: 1215px;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: lowerbox;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-delay: 5s; 
+}
+
+@keyframes lowerbox {
+    from{
+        top: 688px;
+        left: 1215px;
+    }
+    to{
+        top: 688px;
+        left: 5px;
+    }
+}
+
+.circle{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: #51c7f7;
+    border: 2px solid #353434;
+    border-radius: 33px;
+    top: 50px;
+    left: 131.25px;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: circle;
+    animation-direction: alternate;
+    animation-delay: 5s; 
+    animation-timing-function: linear;
+}
+
+@keyframes circle {
+    0%{
+        top: 50px;
+        left: 131.25px;
+    }
+    25%{
+        top: 625px;
+        left: 950.25px;
+    }
+    50%{
+        top: 50px;
+        left: 761.25px;
+    }
+    100%{
+        top: 625px;
+        left: 131.25px;
+    }
+}
+
+.circle2{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: #51c7f7;
+    border: 2px solid #353434;
+    border-radius: 33px;
+    top: 628px;
+    left: 1300px;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: circle2;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-delay: 5s; 
+}
+
+@keyframes circle2 {
+    0%{
+        top: 628px;
+        left: 1300px;
+    }
+    25%{
+        top: 50px;
+        left: 463.75px;
+    }
+    50%{
+        top: 628px;
+        left: 761.25px;
+    }
+    100%{
+        top: 50px;
+        left: 1300px;
+    }
+}
+
